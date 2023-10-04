@@ -111,6 +111,7 @@ a:focus {
 
 .header_section .header_bottom {
   padding: 10px 0;
+  background-color: #4444453c;
 }
 
 .navbar-brand {
@@ -401,6 +402,7 @@ a:focus {
   fill: #ffffff;
 }
 
+/* About section */
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -436,6 +438,13 @@ a:focus {
 .about_section .img-box img {
   width: 100%;
 }
+
+.about_section .img-box {
+  box-shadow: rgba(203, 154, 9, 0.802) 0 0 20px 3px;
+  border-radius: 10px;
+  overflow: hidden  ;
+}
+/* end About section */
 
 .professional_section {
   background-color: #d1e3ff;
@@ -795,6 +804,7 @@ a:focus {
 
 .info_items .item .img-box i {
   font-size: 24px;
+  margin-top: 33%;
 }
 
 .info_items .item p {
@@ -815,7 +825,7 @@ a:focus {
 .info_items::before {
   content: "";
   position: absolute;
-  top: 65px;
+  top: 33%;
   width: 75%;
   height: 1px;
   background-color: #fff;
