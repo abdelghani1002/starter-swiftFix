@@ -653,7 +653,9 @@ a:focus {
   margin-bottom: 30px;
 }
 
-.contact_section input {
+.contact_section input,
+.contact_section select,
+.contact_section textarea {
   width: 100%;
   border: none;
   height: 50px;
@@ -661,9 +663,12 @@ a:focus {
   padding-left: 25px;
   background-color: #ffffff;
   outline: none;
-  color: #ffffff;
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact_section textarea{
+  height: 100px;
 }
 
 .contact_section input::-webkit-input-placeholder {
@@ -705,7 +710,7 @@ a:focus {
 }
 
 .contact_section .map_container {
-  height: 360px;
+  height: 400px;
 }
 
 .contact_section .map_container .map {
