@@ -403,6 +403,10 @@ a:focus {
 }
 
 /* About section */
+.about_section {
+  background-color: rgba(0, 128, 128, 0.471);
+}
+
 .about_section .row {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -447,7 +451,7 @@ a:focus {
 /* end About section */
 
 .professional_section {
-  background-color: #d1e3ff;
+  background-color: #fbaf5d81;
 }
 
 .professional_section .row {
@@ -489,6 +493,7 @@ a:focus {
 
 .service_section {
   position: relative;
+  background-color: #4285dc92;
 }
 
 .service_section .box {
@@ -660,6 +665,11 @@ a:focus {
 
 .heading_container {
   margin-bottom: 30px;
+}
+
+/* Contact section */
+.contact_section{
+  background-color: #3a3af195;
 }
 
 .contact_section input,
