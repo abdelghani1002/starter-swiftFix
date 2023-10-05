@@ -71,8 +71,7 @@
                                     <a class="nav-link" href="./services.html">Services</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="">Contact Us <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="">Contact Us <span class="sr-only">(current)</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -94,16 +93,20 @@
                     <div class="col-md-6">
                         <form action="">
                             <div class="form-item">
-                                <input type="text" placeholder="Name" />
+                                <label for="Name" class="contact-label">Name</label>
+                                <input id="Name"  type="text" placeholder="Name" />
                             </div>
                             <div class="form-item">
-                                <input type="tel" placeholder="Phone Number" />
+                                <label for="Phone" class="contact-label">Phone</label>
+                                <input id="Phone"  type="tel" placeholder="Phone Number" />
                             </div>
                             <div class="form-item">
-                                <input type="email" placeholder="Email" />
+                                <label for="Email" class="contact-label">Email</label>
+                                <input id="Email"  type="email" placeholder="Email" />
                             </div>
                             <div class="form-item">
-                                <select id="subject" name="subject" placeholder="subject">
+                                <label for="subject" class="contact-label">Subject</label> 
+                                <select id="subject"  id="subject" name="subject" placeholder="subject">
                                     <option disabled selected value="">Select subject</option>
                                     <option value="general">General Inquiry</option>
                                     <option value="support">Customer Support</option>
@@ -112,7 +115,8 @@
                                 </select>
                             </div>
                             <div class="form-item">
-                                <textarea type="text" class="message-box" placeholder="Message" ></textarea>
+                                <label for="message" class="contact-label">Message</label> 
+                                <textarea id="message"  type="text" class="message-box" placeholder="Message"></textarea>
                             </div>
                             <div class="d-flex w-100">
                                 <button class="w-50 mx-auto">
@@ -192,17 +196,19 @@
                 Follow Us
             </h4>
             <div class="box">
-                <a href="">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="facebook.com" aria-label="Follow us in facebook" aria-labelledby="fa_facebook"
+                    title="facebook">
+                    <i id="fa_facebook" class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
-                <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                <a href="x.com" aria-label="Follow us in twitter" aria-labelledby="fa_twitter" title="twitter">
+                    <i id="fa_twitter" class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-                <a href="">
-                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                <a href="youtube.com" aria-label="Follow us in youtube" aria-labelledby="fa_youtube" title="youtube">
+                    <i id="fa_youtube" class="fa fa-youtube" aria-hidden="true"></i>
                 </a>
-                <a href="">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                <a href="instagram.com" aria-label="Follow us in instagram" aria-labelledby="fa_instagram"
+                    title="instagram">
+                    <i id="fa_instagram" class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
