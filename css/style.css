@@ -427,9 +427,6 @@ a:focus {
 }
 
 /* About section */
-.about_section {
-  background-color: rgba(0, 128, 128, 0.471);
-}
 
 .about_section .row {
   -webkit-box-align: center;
@@ -468,7 +465,7 @@ a:focus {
 }
 
 .about_section .img-box {
-  box-shadow: rgba(203, 154, 9, 0.802) 0 0 20px 3px;
+  box-shadow: rgb(143, 142, 140) 0 0 20px 3px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -519,7 +516,6 @@ a:focus {
 
 .service_section {
   position: relative;
-  background-color: #4285dc92;
 }
 
 .service_section .box {
@@ -705,9 +701,6 @@ a:focus {
 }
 
 /* Contact section */
-.contact_section {
-  background-color: #3a3af195;
-}
 
 .contact_section input,
 .contact_section select,
